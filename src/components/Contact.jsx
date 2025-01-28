@@ -1,4 +1,8 @@
-import { RiGithubFill, RiLinkedinBoxFill } from "@remixicon/react";
+import {
+  RiGithubFill,
+  RiLinkedinBoxFill,
+  RiTwitterFill,
+} from "@remixicon/react";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -47,7 +51,7 @@ const Contact = () => {
           Contact Number: +923458019612
         </p>
         <p className="contact-text mb-4 text-lg lg:text-xl">
-          Feel free to rech out to me via Email:{"  "}
+          Feel free to reach out to me via Email:{"  "}
           <a href="mailto:alirazakh755@gmail.com" className="border-b">
             alirazakh755@gmail.com
           </a>
@@ -78,7 +82,7 @@ const Contact = () => {
             className="contact-icon"
             aria-label="Visit my Twitter profile"
           >
-            {/* <RiTwitterFill className="text-3xl" /> */}
+            <RiTwitterFill className="text-3xl" />
           </a>
         </div>
       </div>
