@@ -66,7 +66,7 @@ const Hero = () => {
       ref={heroRef}
     >
       <div className="mt-8 lg:mt-20">
-        <h1 className="hero-title text-4xl uppercase lg:text-7xl ">
+        <h1 className="hero-title text-4xl uppercase lg:text-7xl mt-4 sm:mt-8 lg:mt-0 ">
           {PROFILE.name}
         </h1>
         <h2 className="hero-subheading bg-gradient-to-b from-pink-200 to-purple-300 bg-clip-text text-center text-2xl tracking-tighter text-transparent">
