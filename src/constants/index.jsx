@@ -23,6 +23,7 @@ import {
   RiRouterLine,
   RiServerLine,
   RiSearch2Line,
+  RiCodeSSlashLine,
 } from "@remixicon/react";
 
 export const NAVIGATION_LINKS = [
@@ -156,6 +157,10 @@ export const SKILLS = [
     icon: <RiReactjsLine className="text-blue-400" />,
   },
   {
+  name: "Next.js",
+  icon: <RiCodeSSlashLine className="text-gray-900" />,
+   },
+  {
     name: "React Router",
     icon: <RiRouterLine className="text-orange-700" />,
   },
@@ -191,7 +196,15 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    yearRange: "2023 - Present",
+    yearRange: "2024 - Present",
+    role: "Front-End Developer",
+    company: "Enigmatix (pvt) Ltd.",
+    description:
+      "Frontend Developer with React/Next.js expertise and prior backend experience in Node.js.",
+    techStack: ["Javascript", "React.js", "Next Js", "Node.js", "MongoDB", "Express"],
+  },
+  {
+    yearRange: "2023 - 2024",
     role: "Learning MERN Stack",
     company: "ItchyFeet-The Airbnb Clone site",
     description:
@@ -261,6 +274,6 @@ export const TESTIMONIAL = {
   name: "Sarah Doe(Dummy Name)",
   title: "CEO, TechCorp",
   quote:
-    "This is a Dummy Testimonial as i am yet to work in a professional environment such as Internship or other jobs in Tech.",
+    "Working at Enigmatix as a Front End Developer.",
   image: personImage,
 };
