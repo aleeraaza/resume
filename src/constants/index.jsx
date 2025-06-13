@@ -1,4 +1,6 @@
 import fastpizza from "../assets/fastpizza.png";
+import mrm from "../assets/mrm.png";
+import searchatlas from "../assets/searchatlas.png";
 import itchyfeet from "../assets/itchyfeet.png";
 import popcorn from "../assets/popcorn.png";
 import splitbill from "../assets/splitbill.png";
