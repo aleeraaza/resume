@@ -23,7 +23,6 @@ import {
   RiRouterLine,
   RiServerLine,
   RiSearch2Line,
-  RiCodeSSlashLine,
 } from "@remixicon/react";
 
 export const NAVIGATION_LINKS = [
@@ -157,9 +156,9 @@ export const SKILLS = [
     icon: <RiReactjsLine className="text-blue-400" />,
   },
   {
-  name: "Next.js",
-  icon: <RiCodeSSlashLine className="text-gray-900" />,
-   },
+    name: "Next Js",
+    icon: <RiNextjsLine className="text-pink-400" />,
+  },
   {
     name: "React Router",
     icon: <RiRouterLine className="text-orange-700" />,
@@ -175,10 +174,6 @@ export const SKILLS = [
   {
     name: "Node.js",
     icon: <RiNodeTree className="text-green-500" />,
-  },
-  {
-    name: "Next Js",
-    icon: <RiNextjsLine className="text-pink-400" />,
   },
   {
     name: "MongoDB",
