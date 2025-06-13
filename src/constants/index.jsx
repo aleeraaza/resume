@@ -41,6 +41,23 @@ export const PROFILE = {
 export const PROJECTS = [
   {
     id: 1,
+    title: "Search Atlas - Seo Platform.",
+    description:
+      "SearchAtlas.com is an AI-powered SEO platform designed for agencies, businesses, and individuals to automate and manage SEO tasks. It offers tools for site audits, content optimization, keyword research, backlink analysis, and AI-driven content creation.",
+    techStack: ["Next js", "React-Router", "Tailwind Css"],
+    imgSrc: searchatlas,
+    link: "https://searchatlas.com/",
+  },
+  {
+    id: 2,
+    title: "Multi Radiance Medical.",
+    description:
+      "MultiRadiance.com is the official website of Multi Radiance Medical, a company specializing in FDA-cleared laser therapy devices.",
+    techStack: ["React", "React-Router", "Tailwind Css", "MUI"],
+    imgSrc: mrm,
+    link: "https://www.multiradiance.com/",
+  },{
+    id: 3,
     title: "Fast Pizza Co.",
     description:
       "Fast React Pizza is a React application where users can browse through a list of pizzas, add them to their cart, and place an order.",
@@ -49,7 +66,7 @@ export const PROJECTS = [
     link: "https://fast-pizza-co-coral.vercel.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "ItchyFeet (MERN App)",
     description:
       "Wait! It'll take some time to load as it is Deployed on Render for free.Its a clone project of popular Place Listing(like rooms, appartments, buildings, etc) website called Airbnb . It tech stack is MongoDB, Experss, ejs, Node.js, BootStrap and many more technologies.",
@@ -65,7 +82,7 @@ export const PROJECTS = [
     link: "https://itchyfeet-acei.onrender.com/listings",
   },
   {
-    id: 3,
+    id: 5,
     title: "Popcorn & Movies",
     description:
       "Popcorn is a React application that allows users to search for movies, rate them, and manage a watchlist. The app fetches movie data from the IMDb API, providing an easy way for users to discover and keep track of their favorite films.",
@@ -74,7 +91,7 @@ export const PROJECTS = [
     link: "https://popcorn-and-movies-aliraza.vercel.app/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Split-the-Bill",
     description:
       "Split-the-Bill is a simple React application designed to help you split bills with friends. Whether you’re dining out or sharing expenses.",
@@ -83,7 +100,7 @@ export const PROJECTS = [
     link: "https://split-the-bill-aliraza.vercel.app/",
   },
   {
-    id: 5,
+    id: 7,
     title: "World-Wise",
     description:
       "WorldWise is a travel app. This app helps users keep track of the places they've visited and plan their future trips.",
@@ -92,7 +109,7 @@ export const PROJECTS = [
     link: "https://world-wise-aliraza.vercel.app/",
   },
   {
-    id: 6,
+    id: 8,
     title: "Atomic-Blog",
     description: "Atomic Blog is a simple blogging platform built using React.",
     techStack: ["React"],
@@ -100,7 +117,7 @@ export const PROJECTS = [
     link: "https://atomic-blog-aliraza.vercel.app/",
   },
   {
-    id: 7,
+    id: 9,
     title: "Travel-Check-List",
     description:
       "Travel checklist is a React application designed to help users prepare a list of items they need to carry with them.",
@@ -109,7 +126,7 @@ export const PROJECTS = [
     link: "https://travel-checklist-aliraza.vercel.app/",
   },
   {
-    id: 8,
+    id: 10,
     title: "My Resume",
     description:
       "A sleek and responsive portfolio website built with React, Tailwind CSS and GSAP for animations on this site",
